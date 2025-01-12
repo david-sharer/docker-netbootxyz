@@ -1,0 +1,9 @@
+# keep docker-compose files in this dir
+!docker-compose.yml
+
+# ignore /state/ unless it's in extra
+**/state/*
+!**/state/extra/
+
+# these are generated for the examples. so we can get rid of them
+dnsmasq.conf
