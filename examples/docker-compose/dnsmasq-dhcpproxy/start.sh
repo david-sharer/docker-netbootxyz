@@ -56,7 +56,7 @@ fi
 
 
 # make any scripts in the dir executable
-chmod +x "$EXTRA_CONFIG_DIR/*.sh"
+chmod +x "$EXTRA_CONFIG_DIR"/*.sh
 
 # Launch the local docker compose file
 docker compose -f "$DIR/docker-compose.yml" up
